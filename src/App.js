@@ -4,7 +4,7 @@ import JsCookie from 'js-cookie';
 import { JSEncrypt } from "jsencrypt";
 
 function App() {
-    const host = 'http://localhost:8030/api'
+    const host = 'https://passmgr.itpelag.com/api'
     let username = '';
     const axiosInstance = axios.create({
         withCredentials: true,
